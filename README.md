@@ -7,7 +7,8 @@
 ## Roadmap
 
 - Develop initial layout (Header, Footer) ✅
-- Loading ... 🏠
+- building the home ... 🏠
+- Loading ... ⚙️
 
 ## Installation
 
