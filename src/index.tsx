@@ -5,8 +5,8 @@ import {
   Navigate,
   RouterProvider,
 } from "react-router-dom";
-import { Footer } from "./Layout/Footer/Index";
-import { Header } from "./Layout/Header/Index";
+import { Footer } from "./layout/Footer/Index";
+import { Header } from "./layout/Header/Index";
 import { ErrorPage } from "./pages/ErrorPage/Index";
 import { Home } from "./pages/Home/Index";
 
