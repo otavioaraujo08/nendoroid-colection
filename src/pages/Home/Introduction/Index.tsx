@@ -8,7 +8,7 @@ export const Introduction = () => {
 
   return (
     <Box className={classes.home}>
-      <Box className={classes.mainContentBox}>
+      <Box>
         <Typography className={classes.title}>Os maravilhosos</Typography>
         <Typography className={classes.subTitle}>Nendoroids</Typography>
 
