@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core";
-import decorativeFrame from "../../assets/decorativeFrame.png";
+import decorativeFrame from "../../../assets/decorativeFrame.png";
 
 export const useStyles = makeStyles((theme) => ({
   home: {
