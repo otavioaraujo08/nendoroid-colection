@@ -18,8 +18,12 @@ export const useStyles = makeStyles((theme) => ({
     fontWeight: 540,
     color: "#0A0A09",
   },
-  icon: {
+  buttonIcon: {
     marginRight: "2rem",
+    borderRadius: "50%",
+    "&:hover": {
+      backgroundColor: "#E0E0E0",
+    },
     [theme.breakpoints.between(0, 800)]: {
       marginRight: 0,
     },

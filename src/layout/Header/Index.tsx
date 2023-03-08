@@ -17,8 +17,8 @@ export const Header = () => {
     <Box className={classes.header}>
       <Typography className={classes.title}>Nendoroid Colection</Typography>
 
-      <Button onClick={redirectToGithub}>
-        <FaGithubAlt size="2rem" className={classes.icon} />
+      <Button onClick={redirectToGithub} className={classes.buttonIcon}>
+        <FaGithubAlt size="2rem" />
       </Button>
     </Box>
   );
