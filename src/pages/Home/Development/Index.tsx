@@ -6,7 +6,7 @@ export const Development = () => {
 
   return (
     <Box className={classes.development}>
-      <Box className={classes.developmentText}>
+      <Box className={classes.developmentTextBox}>
         <Typography className={classes.title}>Nendoroid Colection</Typography>
         <Typography className={classes.subTitle}>
           A série Nendoroid apresenta personagens fofos, figuras estilo chibi
@@ -15,7 +15,7 @@ export const Development = () => {
         </Typography>
       </Box>
 
-      <Box>
+      <Box className={classes.opnionBox}>
         <Typography className={classes.opnions}>
           As Funko Pops are in the United States, Nendoroids are Japan’s
           ubiquitous figure brand that portrays hundreds of different characters
@@ -23,6 +23,7 @@ export const Development = () => {
           polyvinyl chloride (PVC), they're mass-produced in factories before
           getting shipped to fans all around the world.
         </Typography>
+        <Typography className={classes.opnionAuthor}>Forbes</Typography>
       </Box>
     </Box>
   );
