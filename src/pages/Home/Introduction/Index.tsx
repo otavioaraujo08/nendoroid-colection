@@ -31,6 +31,7 @@ export const Introduction = () => {
 
       <Box className={classes.decorationFrame}>
         <img
+          loading="lazy"
           src={leviAckerman}
           alt="Exemplo de um nendoroid"
           className={classes.image}
