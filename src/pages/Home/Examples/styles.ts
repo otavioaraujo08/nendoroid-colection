@@ -48,6 +48,15 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
   },
+  lore: {
+    textAlign: "center",
+    width: "80%",
+    fontSize: "1.3rem",
+    fontWeight: 600,
+    color: "#fff",
+    textShadow: "0 0 15px #000",
+    marginBottom: "6rem",
+  },
   buttonsBox: {
     display: "flex",
     justifyContent: "center",
@@ -74,7 +83,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   image: {
     height: "80%",
-    width: "70%",
+    width: "80%",
     objectFit: "contain",
   },
 }));

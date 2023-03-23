@@ -32,6 +32,8 @@ export const Examples = () => {
             </Box>
 
             <Box className={classes.boxStats}>
+              <Typography className={classes.lore}>{item.lore}</Typography>
+
               <Box className={classes.buttonsBox}>
                 <Button
                   disabled={index === 0}
