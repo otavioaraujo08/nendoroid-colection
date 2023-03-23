@@ -1,4 +1,5 @@
 import { Development } from "./Development/Index";
+import { Examples } from "./Examples/Index";
 import { Introduction } from "./Introduction/Index";
 
 export const Home = () => {
@@ -7,6 +8,8 @@ export const Home = () => {
       <Introduction />
 
       <Development />
+
+      <Examples />
     </>
   );
 };
